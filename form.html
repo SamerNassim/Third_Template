@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sale offer for:templated.co</title>
+    <!-- Css File -->
+    <link rel="stylesheet" href="css/form.css">
+</head>
+<body>
+    
+    <h3>TEMPLATED.CO</h3>
+    <p>If you want to buy this domain, please fill out this form.</p>
+    <form action="">
+        <div class="input_field">
+            <label for="name">Name</label>
+            <input type="text" name="name" required>
+        </div>
+
+        <div class="input_field">
+            <label for="email">E-Mail Address</label>
+        <input type="email" name="email" required>
+        </div>
+
+      <div class="input_field">
+        <label for="r-email">Repeat E-Mail Address</label>
+        <input type="email" name="r-email" required>
+      </div>
+
+       <div class="input_field">
+        <label for="phone">Phone (optional)</label>
+        <input type="tel" name="phone">
+       </div>
+
+        <div class="input_field">
+            <label for="company">Company (optional)</label>
+        <input type="text" name="company">
+        </div>
+
+        <div class="input_field">
+            <label for="website">Website (optional)</label>
+        <input type="url" name="website">
+        </div>
+        <div class="input_field">
+            <label for="price">Price Offer</label>
+            <div class="box">
+            <input type="text" name="price" class="price" pattern="[0-9]+">
+            <div class="custom-select">
+                <select name="currancy" id="">
+                    <div class="options">
+                    <option value="EUR">EUR</option>
+                    <option value="USD">USD</option>
+                </div>
+                </select>
+                <span class="custom-arrow"></span>
+        </div>
+        
+            </div>
+            
+        </div>
+        <div class="input_field">
+            <label for="comment" class="comment">Comment</label>
+            <textarea name="comment" id="" cols="20" rows="5"></textarea>
+        </div>
+        <div class="input_field check-box">
+                  <input type="checkbox" name="check" id="">
+                      <label for="check-text"> I consent having this website store and process my submitted information in order to deliver my inquiry.</label>
+        </div>
+        <div class="input_field btn">
+            <input type="submit" value="Submit">
+        </div>
+        <img src="images/trust.svg" alt="">
+    </form>
+
+</body>
+</html>

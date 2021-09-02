@@ -1,0 +1,51 @@
+/* Start Variables */
+
+/* End Variables */
+/* Start Global Variables */
+/* End Global Variables */
+/* Start Buy This Domain */
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.container {
+    width:98%;
+    margin:0 auto;
+}
+
+ a {
+    width:100%;
+    text-align:center;
+    font-weight: bold;
+    text-decoration: none;
+    display: block;
+    margin:10px 0;
+    
+}
+ a div {
+    width:100%;
+    color:#FFF;
+    background-image:linear-gradient(#f49300,#f25b00  );
+    width:100%;
+    text-align:center;
+    font-weight: 800;
+    font-size:16px;
+    padding:10px;   
+    font-family:sans-serif;
+    
+}
+/* End Buy This Domain */
+/* Start H1 */
+h1 {
+    padding-bottom:30px;
+}
+/* End H1 */
+/* Start Copyright */
+p a {
+    display:inline;
+    color:#00f;
+    text-decoration:underline;
+    font-weight: normal;
+}
+/* End Copyright */
